@@ -1,0 +1,56 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.22.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - '@babel/core > lodash':
+        patched: '2022-03-25T21:00:30.771Z'
+    - html-webpack-plugin > lodash:
+        patched: '2022-03-25T21:00:30.771Z'
+    - karma > lodash:
+        patched: '2022-03-25T21:00:30.771Z'
+    - karma-coverage > lodash:
+        patched: '2022-03-25T21:00:30.771Z'
+    - karma-webpack > lodash:
+        patched: '2022-03-25T21:00:30.771Z'
+    - '@babel/preset-env > @babel/plugin-transform-block-scoping > lodash':
+        patched: '2022-03-25T21:00:30.771Z'
+    - karma-webpack > async > lodash:
+        patched: '2022-03-25T21:00:30.771Z'
+    - webpack-dev-server > http-proxy-middleware > lodash:
+        patched: '2022-03-25T21:00:30.771Z'
+    - '@babel/preset-env > @babel/plugin-transform-modules-umd > @babel/helper-module-transforms > lodash':
+        patched: '2022-03-25T21:00:30.771Z'
+    - istanbul-instrumenter-loader > istanbul-lib-instrument > babel-types > lodash:
+        patched: '2022-03-25T21:00:30.771Z'
+    - istanbul-instrumenter-loader > istanbul-lib-instrument > babel-generator > lodash:
+        patched: '2022-03-25T21:00:30.771Z'
+    - istanbul-instrumenter-loader > istanbul-lib-instrument > babel-traverse > lodash:
+        patched: '2022-03-25T21:00:30.771Z'
+    - istanbul-instrumenter-loader > istanbul-lib-instrument > babel-template > lodash:
+        patched: '2022-03-25T21:00:30.771Z'
+    - karma > log4js > streamroller > lodash:
+        patched: '2022-03-25T21:00:30.771Z'
+    - '@babel/preset-env > @babel/plugin-transform-parameters > @babel/helper-call-delegate > @babel/traverse > lodash':
+        patched: '2022-03-25T21:00:30.771Z'
+    - istanbul-instrumenter-loader > istanbul-lib-instrument > babel-generator > babel-types > lodash:
+        patched: '2022-03-25T21:00:30.771Z'
+    - istanbul-instrumenter-loader > istanbul-lib-instrument > babel-traverse > babel-types > lodash:
+        patched: '2022-03-25T21:00:30.771Z'
+    - istanbul-instrumenter-loader > istanbul-lib-instrument > babel-template > babel-types > lodash:
+        patched: '2022-03-25T21:00:30.771Z'
+    - istanbul-instrumenter-loader > istanbul-lib-instrument > babel-template > babel-traverse > lodash:
+        patched: '2022-03-25T21:00:30.771Z'
+    - karma > log4js > streamroller > async > lodash:
+        patched: '2022-03-25T21:00:30.771Z'
+    - '@babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > lodash':
+        patched: '2022-03-25T21:00:30.771Z'
+    - istanbul-instrumenter-loader > istanbul-lib-instrument > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2022-03-25T21:00:30.771Z'
+    - '@babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/generator > lodash':
+        patched: '2022-03-25T21:00:30.771Z'
+    - '@babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash':
+        patched: '2022-03-25T21:00:30.771Z'
+    - '@babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash':
+        patched: '2022-03-25T21:00:30.771Z'
