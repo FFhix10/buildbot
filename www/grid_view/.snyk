@@ -1,0 +1,66 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.22.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - guanlecoja-ui > lodash:
+        patched: '2022-03-25T21:00:40.534Z'
+    - buildbot-build-common > @babel/core > lodash:
+        patched: '2022-03-25T21:00:40.534Z'
+    - buildbot-build-common > html-webpack-plugin > lodash:
+        patched: '2022-03-25T21:00:40.534Z'
+    - buildbot-build-common > karma > lodash:
+        patched: '2022-03-25T21:00:40.534Z'
+    - buildbot-build-common > karma-coverage > lodash:
+        patched: '2022-03-25T21:00:40.534Z'
+    - buildbot-build-common > karma-webpack > lodash:
+        patched: '2022-03-25T21:00:40.534Z'
+    - buildbot-build-common > @babel/preset-env > @babel/plugin-transform-block-scoping > lodash:
+        patched: '2022-03-25T21:00:40.534Z'
+    - buildbot-build-common > karma-webpack > async > lodash:
+        patched: '2022-03-25T21:00:40.534Z'
+    - buildbot-build-common > webpack-dev-server > http-proxy-middleware > lodash:
+        patched: '2022-03-25T21:00:40.534Z'
+    - buildbot-build-common > @babel/preset-env > @babel/plugin-transform-modules-umd > @babel/helper-module-transforms > lodash:
+        patched: '2022-03-25T21:00:40.534Z'
+    - buildbot-build-common > istanbul-instrumenter-loader > istanbul-lib-instrument > babel-types > lodash:
+        patched: '2022-03-25T21:00:40.534Z'
+    - buildbot-build-common > istanbul-instrumenter-loader > istanbul-lib-instrument > babel-generator > lodash:
+        patched: '2022-03-25T21:00:40.534Z'
+    - buildbot-build-common > istanbul-instrumenter-loader > istanbul-lib-instrument > babel-traverse > lodash:
+        patched: '2022-03-25T21:00:40.534Z'
+    - buildbot-build-common > istanbul-instrumenter-loader > istanbul-lib-instrument > babel-template > lodash:
+        patched: '2022-03-25T21:00:40.534Z'
+    - buildbot-build-common > webpack-dev-server > portfinder > async > lodash:
+        patched: '2022-03-25T21:00:40.534Z'
+    - buildbot-build-common > karma > log4js > streamroller > lodash:
+        patched: '2022-03-25T21:00:40.534Z'
+    - buildbot-build-common > @babel/preset-env > @babel/plugin-transform-unicode-regex > @babel/helper-create-regexp-features-plugin > @babel/helper-regex > lodash:
+        patched: '2022-03-25T21:00:40.534Z'
+    - buildbot-build-common > istanbul-instrumenter-loader > istanbul-lib-instrument > babel-generator > babel-types > lodash:
+        patched: '2022-03-25T21:00:40.534Z'
+    - buildbot-build-common > istanbul-instrumenter-loader > istanbul-lib-instrument > babel-traverse > babel-types > lodash:
+        patched: '2022-03-25T21:00:40.534Z'
+    - buildbot-build-common > istanbul-instrumenter-loader > istanbul-lib-instrument > babel-template > babel-types > lodash:
+        patched: '2022-03-25T21:00:40.534Z'
+    - buildbot-build-common > pug > pug-code-gen > constantinople > babel-types > lodash:
+        patched: '2022-03-25T21:00:40.534Z'
+    - buildbot-build-common > pug > pug-filters > constantinople > babel-types > lodash:
+        patched: '2022-03-25T21:00:40.534Z'
+    - buildbot-build-common > istanbul-instrumenter-loader > istanbul-lib-instrument > babel-template > babel-traverse > lodash:
+        patched: '2022-03-25T21:00:40.534Z'
+    - buildbot-build-common > karma > log4js > streamroller > async > lodash:
+        patched: '2022-03-25T21:00:40.534Z'
+    - buildbot-build-common > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > lodash:
+        patched: '2022-03-25T21:00:40.534Z'
+    - buildbot-build-common > istanbul-instrumenter-loader > istanbul-lib-instrument > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2022-03-25T21:00:40.534Z'
+    - buildbot-build-common > pug > pug-code-gen > pug-attrs > constantinople > babel-types > lodash:
+        patched: '2022-03-25T21:00:40.534Z'
+    - buildbot-build-common > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/generator > lodash:
+        patched: '2022-03-25T21:00:40.534Z'
+    - buildbot-build-common > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-03-25T21:00:40.534Z'
+    - buildbot-build-common > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2022-03-25T21:00:40.534Z'
